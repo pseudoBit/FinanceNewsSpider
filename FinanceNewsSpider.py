@@ -20,7 +20,7 @@ def printit():
 
     threading.Timer(15.0, printit).start()
 
-    html = urlopen("http://119.29.63.230/24h/news.json?newsid=0").read().decode('utf-8')
+    html = urlopen("http://119.29.63.230/24h/news_fbe.json?newsid=0").read().decode('utf-8')
 
     var_exists = 'last_news' in locals() or 'last_news' in globals()
     if var_exists:
