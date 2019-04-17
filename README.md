@@ -19,7 +19,7 @@ source ~/venv/bin/activate
 ```
 pip2 install urllib2
 ```
-将telegram机器人的api和你创建channel的api分别填入```FinanceNewsSpider.py```中的```boi_api```和```user_api```中（注意要放在```\"\ \"```）
+将telegram机器人的api和你创建channel的api分别填入```FinanceNewsSpider.py```中的```boi_api```和```user_api```中（注意要放在```' '```）
 
 
 ```
