@@ -33,6 +33,8 @@ pip2 install urllib2
 3. 如今你可以通过输入```@XXX```来链接到你的频道
 4. 此时你的```user_api```该是```user_api = ['@XXX']```
 
+把机器人添加到所建频道中，并给予其管理员权限。
+
 填入这两个api，程序就完成了，若要普通运行，则输入
 ```
 python2 sina_finance.py
